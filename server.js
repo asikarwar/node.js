@@ -9,7 +9,7 @@ app.use(express.static(__dirname+ '/public'));
 
 
 app.get('/',(req,res) =>{
-	res.send('hello express');
+	res.send('Saini bhai batman ke avatar h. hail saini bhai');
 });
 
 app.get('/about',(req,res) =>{
